@@ -9,7 +9,7 @@ class MinimalSubscriber : public rclcpp::Node
   public:
     MinimalSubscriber()
     : Node("minimal_subscriber")
-    {
+    {   
       subscription_ = this->create_subscription<std_msgs::msg::String>(
       "topic_for_occupancy_matrix", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
     }
