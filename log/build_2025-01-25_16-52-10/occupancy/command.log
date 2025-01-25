@@ -1,0 +1,2 @@
+Invoking command in '/home/shivam/code-masala/ros/missile/build/occupancy': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/build/occupancy -- -j16 -l16
+Invoked command in '/home/shivam/code-masala/ros/missile/build/occupancy' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/build/occupancy -- -j16 -l16
