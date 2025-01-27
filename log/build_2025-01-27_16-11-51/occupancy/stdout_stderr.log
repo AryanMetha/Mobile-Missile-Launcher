@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1[m[K:
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<std::pair<int, int> > > OccupancyMatrixSub::find_5x5_submatrix(std::string&)[m[K’:
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:48:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   48 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"continous occupancy grid:\n%s"[m[K, grid);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:48:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   48 |         RCLCPP_INFO(this->get_logger(), "continous occupancy grid:\n[01;36m[K%s[m[K", grid);
+      |                                                                     [01;36m[K~^[m[K
+      |                                                                      [01;36m[K|[m[K
+      |                                                                      [01;36m[Kchar*[m[K
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/lib/occupancy/talker
+-- Installing: /home/shivam/code-masala/ros/missile/install/occupancy/lib/occupancy/listener
+-- Set runtime path of "/home/shivam/code-masala/ros/missile/install/occupancy/lib/occupancy/listener" to ""
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/ament_index/resource_index/package_run_dependencies/occupancy
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/ament_index/resource_index/parent_prefix_path/occupancy
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/environment/path.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/environment/path.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/local_setup.bash
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/local_setup.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/local_setup.zsh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/local_setup.dsv
+-- Installing: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/package.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/ament_index/resource_index/packages/occupancy
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/cmake/occupancyConfig.cmake
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/cmake/occupancyConfig-version.cmake
+-- Up-to-date: /home/shivam/code-masala/ros/missile/install/occupancy/share/occupancy/package.xml

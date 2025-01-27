@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o[0m
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid OccupancyMatrixSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:24:54:[m[K [01;31m[Kerror: [m[K‘[01m[KfindSquareTargets[m[K’ was not declared in this scope
+   24 |         vector<vector<pair<int, int>>> coordinates = [01;31m[KfindSquareTargets[m[K(msg->data.c_str());
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:[m[K In function ‘[01m[Kstd::vector<std::pair<int, int> > findSquareTargets(std::string)[m[K’:
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:71:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates[m[K’ was not declared in this scope
+   71 |                     [01;31m[Kcoordinates[m[K.push_back(row,col);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:75:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcoordinates[m[K’ was not declared in this scope
+   75 |     return [01;31m[Kcoordinates[m[K;
+      |            [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

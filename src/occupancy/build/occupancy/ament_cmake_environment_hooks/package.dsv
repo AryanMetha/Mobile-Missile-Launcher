@@ -1,0 +1,4 @@
+source;share/occupancy/local_setup.bash
+source;share/occupancy/local_setup.dsv
+source;share/occupancy/local_setup.sh
+source;share/occupancy/local_setup.zsh

@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (occupancy) JobQueued: {'identifier': 'occupancy', 'dependencies': OrderedDict()}
+[0.000378] (occupancy) JobStarted: {'identifier': 'occupancy'}
+[0.005363] (occupancy) JobProgress: {'identifier': 'occupancy', 'progress': 'cmake'}
+[0.005975] (occupancy) JobProgress: {'identifier': 'occupancy', 'progress': 'build'}
+[0.006017] (occupancy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shivam/code-masala/ros/missile/src/occupancy/build/occupancy', '--', '-j16', '-l16'], 'cwd': '/home/shivam/code-masala/ros/missile/src/occupancy/build/occupancy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'shivam'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shivam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/shivam/code-masala/ros/missile/src/occupancy/src'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2845'), ('SYSTEMD_EXEC_PID', '2965'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5186'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shivam/code-masala/ros/missile/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shivam'), ('JOURNAL_STREAM', '8:65180'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shivam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/shivam/bin:/home/shivam/bin:/opt/ros/humble/bin:/home/shivam/bin:/home/shivam/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/shivam/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/PLUTO:@/tmp/.ICE-unix/2935,unix/PLUTO:/tmp/.ICE-unix/2935'), ('INVOCATION_ID', '718dca3e1c2e42c8973138e3f62f468a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FCU102'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6336389b8b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/shivam/code-masala/ros/missile/install/occupancy:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shivam/code-masala/ros/missile/src/occupancy/build/occupancy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/shivam/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/shivam/code-masala/ros/missile/install/occupancy:/opt/ros/humble')]), 'shell': False}
+[0.041884] (occupancy) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.050699] (occupancy) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[0.054851] (occupancy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.099488] (-) TimerEvent: {}
+[0.199753] (-) TimerEvent: {}
+[0.300086] (-) TimerEvent: {}
+[0.400457] (-) TimerEvent: {}
+[0.500774] (-) TimerEvent: {}
+[0.601128] (-) TimerEvent: {}
+[0.701519] (-) TimerEvent: {}
+[0.801818] (-) TimerEvent: {}
+[0.902162] (-) TimerEvent: {}
+[1.002408] (-) TimerEvent: {}
+[1.102736] (-) TimerEvent: {}
+[1.203082] (-) TimerEvent: {}
+[1.303453] (-) TimerEvent: {}
+[1.403783] (-) TimerEvent: {}
+[1.504107] (-) TimerEvent: {}
+[1.536166] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OccupancyMatrixSub::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.536331] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbegin(const std::pair<int, int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.536374] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;31m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.536968] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.537029] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[1.537065] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[1.537098] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.537128] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.537157] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.537187] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.537233] (occupancy) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[1.537267] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.537296] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.537325] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.537355] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.537383] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.537410] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.537438] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.537464] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.537491] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.537517] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.537544] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.537572] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.537601] (occupancy) StderrLine: {'line': b'   51 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.begin())\n'}
+[1.537629] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.537656] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.537689] (occupancy) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&) [with _Container = const std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.537716] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K   required from here\n'}
+[1.537743] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.537770] (occupancy) StderrLine: {'line': b'   51 |     begin(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[1.537796] (occupancy) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.537828] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.537859] (occupancy) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.begin())\n'}
+[1.537973] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.538004] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.538035] (occupancy) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&) [with _Container = std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.538092] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K   required from here\n'}
+[1.538122] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kbegin\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.538151] (occupancy) StderrLine: {'line': b'   61 |     begin(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.begin\x1b[m\x1b[K())\n'}
+[1.538178] (occupancy) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.538211] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.538240] (occupancy) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[1.538269] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.538297] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.538326] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.538354] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.538381] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.538407] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.538433] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.538459] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.538486] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.538511] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.538537] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.538562] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:107:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.538589] (occupancy) StderrLine: {'line': b'  107 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(valarray<_Tp>&) noexcept;\n'}
+[1.538617] (occupancy) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.538642] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:107:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.538668] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 have incompatible cv-qualifiers\n'}
+[1.538695] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.538722] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.538749] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.538776] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.538800] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.538826] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.538851] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.538876] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.538903] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.538929] (occupancy) StderrLine: {'line': b'  108 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[1.538956] (occupancy) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.538981] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.539007] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539032] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.539057] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.539084] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kend(const std::pair<int, int>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539111] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[1.539136] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[1.539161] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.539187] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.539217] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.539243] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::end(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539271] (occupancy) StderrLine: {'line': b'  101 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[1.539297] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.539322] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:101:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.539348] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539374] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.539399] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.539424] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.539449] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.539474] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.539498] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.539522] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.539548] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.539573] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539603] (occupancy) StderrLine: {'line': b'   71 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.end())\n'}
+[1.539628] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.539653] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.539678] (occupancy) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(_Container&) [with _Container = const std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.539703] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K   required from here\n'}
+[1.539728] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:71:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539754] (occupancy) StderrLine: {'line': b'   71 |     end(_Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[1.539782] (occupancy) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.539806] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539831] (occupancy) StderrLine: {'line': b'   81 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.end())\n'}
+[1.539856] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.539880] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.539906] (occupancy) StderrLine: {'line': b'/usr/include/c++/11/bits/range_access.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.end()) std::end(const _Container&) [with _Container = std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.539931] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K   required from here\n'}
+[1.539956] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:81:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst struct std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.539983] (occupancy) StderrLine: {'line': b'   81 |     end(const _Container& __cont) -> decltype(\x1b[01;31m\x1b[K__cont.end\x1b[m\x1b[K())\n'}
+[1.540008] (occupancy) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.540034] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:100:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::end(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540061] (occupancy) StderrLine: {'line': b'  100 |     \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[1.540085] (occupancy) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.540110] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:100:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.540136] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[K_Tp [_Nm]\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540162] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.540187] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.540217] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.540242] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.540269] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.540295] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.540321] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.540348] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.540372] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:109:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::end(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540399] (occupancy) StderrLine: {'line': b'  109 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(valarray<_Tp>&) noexcept;\n'}
+[1.540425] (occupancy) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.540451] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:109:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.540476] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  types \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 have incompatible cv-qualifiers\n'}
+[1.540502] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.540528] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.540553] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[1.540578] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.540603] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.540628] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.540655] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[1.540681] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.540710] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:110:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::end(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540736] (occupancy) StderrLine: {'line': b'  110 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kend\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[1.540763] (occupancy) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.540788] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:110:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.540816] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:30:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<int, int>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540842] (occupancy) StderrLine: {'line': b'   30 |                 for (const auto &coord : \x1b[01;36m\x1b[Kcoord_set\x1b[m\x1b[K) {\n'}
+[1.540866] (occupancy) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.540891] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<int, int> > OccupancyMatrixSub::findSquareTargets(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.540918] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:71:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::pair<int, int> >::push_back(int&, int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.540944] (occupancy) StderrLine: {'line': b'   71 |                         \x1b[01;31m\x1b[Kcoordinates.push_back(row,col)\x1b[m\x1b[K;\n'}
+[1.540969] (occupancy) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.540994] (occupancy) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[1.541022] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[1.541048] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[1.541075] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[1.541100] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[1.541126] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.541152] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.541177] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.541207] (occupancy) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/shivam/code-masala/ros/missile/src/occupancy/src/subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[1.541235] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1187:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = std::pair<int, int>; _Alloc = std::allocator<std::pair<int, int> >; std::vector<_Tp, _Alloc>::value_type = std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.541263] (occupancy) StderrLine: {'line': b' 1187 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(const value_type& __x)\n'}
+[1.541290] (occupancy) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.541316] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1187:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[1.541343] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1203:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = std::pair<int, int>; _Alloc = std::allocator<std::pair<int, int> >; std::vector<_Tp, _Alloc>::value_type = std::pair<int, int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.541372] (occupancy) StderrLine: {'line': b' 1203 |       \x1b[01;36m\x1b[Kpush_back\x1b[m\x1b[K(value_type&& __x)\n'}
+[1.541398] (occupancy) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.541423] (occupancy) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1203:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[1.604292] (-) TimerEvent: {}
+[1.704567] (-) TimerEvent: {}
+[1.804912] (-) TimerEvent: {}
+[1.905260] (-) TimerEvent: {}
+[2.005624] (-) TimerEvent: {}
+[2.105966] (-) TimerEvent: {}
+[2.206403] (-) TimerEvent: {}
+[2.306750] (-) TimerEvent: {}
+[2.407105] (-) TimerEvent: {}
+[2.507414] (-) TimerEvent: {}
+[2.607786] (-) TimerEvent: {}
+[2.708134] (-) TimerEvent: {}
+[2.808429] (-) TimerEvent: {}
+[2.908690] (-) TimerEvent: {}
+[3.008947] (-) TimerEvent: {}
+[3.109230] (-) TimerEvent: {}
+[3.132088] (occupancy) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1\n'}
+[3.132238] (occupancy) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.132410] (occupancy) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.133741] (occupancy) CommandEnded: {'returncode': 2}
+[3.139408] (occupancy) JobEnded: {'identifier': 'occupancy', 'rc': 2}
+[3.149892] (-) EventReactorShutdown: {}
