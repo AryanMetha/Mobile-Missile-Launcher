@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
+#include "std_msgs/msg/int32_multi_array.hpp"
 #include <vector>
 #include <string>
 #include <cstdlib>
@@ -16,6 +16,7 @@ vector<vector<int>> createOccupancyGrid(int size, int submatrixSize) {
     int minPosition = 5;                       // Prevent submatrix at the edge
     int startX = (rand() % maxPosition) + minPosition;
     int startY = (rand() % maxPosition) + minPosition;
+
     for (int i = startX; i < startX + submatrixSize; i++) {
         for (int j = startY; j < startY + submatrixSize; j++) {
             matrix[i][j] = 1;
@@ -24,36 +25,49 @@ vector<vector<int>> createOccupancyGrid(int size, int submatrixSize) {
     return matrix;
 }
 
-// Helper function to convert 2D vector to string
-std::string convertMatrixToString(const vector<vector<int>> &matrix) {
-    std::ostringstream oss;
-    for (const auto &row : matrix) {
-        for (const auto &elem : row) {
-            oss << elem << " ";
-        }
-        oss << "\n";
-    }
-    return oss.str();
-}
-
 // Publisher class
 class OccupancyMatrixPub : public rclcpp::Node {
 public:
     OccupancyMatrixPub() : Node("occupancy_publisher") {
-        publisher_ = this->create_publisher<std_msgs::msg::String>("topic_for_occupancy_matrix", 10);
-        publish_message();
+        publisher_ = this->create_publisher<std_msgs::msg::Int32MultiArray>(
+            "topic_for_occupancy_matrix", 10);
+        
+        // Create a timer that fires every second
+        timer_ = this->create_wall_timer(
+            std::chrono::seconds(1),
+            std::bind(&OccupancyMatrixPub::publish_message, this));
+        
+        RCLCPP_INFO(this->get_logger(), "Occupancy Matrix Publisher initialized");
     }
 
 private:
     void publish_message() {
-        auto message = std_msgs::msg::String();
+        auto message = std_msgs::msg::Int32MultiArray();
         vector<vector<int>> occupancyGrid = createOccupancyGrid(50, 5);
-        message.data = convertMatrixToString(occupancyGrid);
-        RCLCPP_INFO(this->get_logger(), "Publishing:\n%s", message.data.c_str());
+
+        int rows = occupancyGrid.size();
+        int cols = occupancyGrid.empty() ? 0 : occupancyGrid[0].size();
+
+        // Set layout dimensions dynamically
+        message.layout.dim.resize(2);
+        message.layout.dim[0].label = "rows";
+        message.layout.dim[0].size = rows;
+
+        message.layout.dim[1].label = "cols";
+        message.layout.dim[1].size = cols;
+
+        // Flatten the 2D vector into a 1D array
+        for (const auto &row : occupancyGrid) {
+            message.data.insert(message.data.end(), row.begin(), row.end());
+        }
+
+
+        RCLCPP_INFO(this->get_logger(), "Publishing %dx%d array...", rows, cols);
         publisher_->publish(message);
     }
 
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Publisher<std_msgs::msg::Int32MultiArray>::SharedPtr publisher_;
+    rclcpp::TimerBase::SharedPtr timer_;
 };
 
 int main(int argc, char *argv[]) {
