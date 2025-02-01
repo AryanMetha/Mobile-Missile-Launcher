@@ -1,0 +1,1 @@
+#this file (will used inside a ros2 server ) should use the model trained using main.py and use other data obtined from the camera to return the pose of the target relative to the camera
