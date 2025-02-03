@@ -5,7 +5,7 @@
 #include <cmath>
 #include <iostream>
 #include <ctime>
-//  this is a test node
+//  this is a test node not working right now
 using namespace std;
 
 float conversionUnit = 1, targetX = 0, targetY = 0, targetZ = 0.3, currentX = 2, currentY = 3;

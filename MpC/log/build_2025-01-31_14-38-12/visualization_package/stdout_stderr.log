@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target path_visualizer[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/path_visualizer.dir/src/simu.cpp.o[0m
-[01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:[m[K In constructor ‘[01m[KPathVisualizer::PathVisualizer()[m[K’:
-[01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:21:40:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishPath[m[K’ is not a member of ‘[01m[KPathVisualizer[m[K’
-   21 |             std::bind(&PathVisualizer::[01;31m[KpublishPath[m[K, this));
-      |                                        [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/path_visualizer.dir/build.make:76: CMakeFiles/path_visualizer.dir/src/simu.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_visualizer.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
