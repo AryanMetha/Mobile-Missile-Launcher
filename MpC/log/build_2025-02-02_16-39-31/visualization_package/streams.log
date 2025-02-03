@@ -1,0 +1,63 @@
+[0.009s] Invoking command in '/home/shivam/code-masala/ros/missile/src/build/visualization_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/src/build/visualization_package -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target path_visualizer[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/path_visualizer.dir/src/simu.cpp.o[0m
+[1.963s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:[m[K In constructor ‘[01m[KpathPub::pathPub()[m[K’:
+[1.963s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[KpathPub[m[K’?
+[1.963s]    15 |         [01;31m[Kpath_pub_[m[K = this->create_publisher<nav_msgs::msg::Path>("planned_path", 10);
+[1.963s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.963s]       |         [32m[KpathPub[m[K
+[1.968s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:15:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[1.968s]    15 |         path_pub_ = this->create_publisher<[01;31m[Knav_msgs[m[K::msg::Path>("planned_path", 10);
+[1.968s]       |                                            [01;31m[K^~~~~~~~[m[K
+[1.968s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:15:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.968s]    15 |         path_pub_ = this->[01;31m[Kcreate_publisher<nav_msgs::msg::Path>[m[K("planned_path", 10);
+[1.968s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.968s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:15:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KpathPub::create_publisher<<expression error> >(const char [13], int)[m[K’
+[1.968s]    15 |         path_pub_ = [01;31m[Kthis->create_publisher<nav_msgs::msg::Path>("planned_path", 10)[m[K;
+[1.968s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.968s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.968s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.969s]                  from [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:1[m[K:
+[1.969s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.969s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[1.969s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.969s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.969s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:15:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.969s]    15 |         path_pub_ = [01;31m[Kthis->create_publisher<nav_msgs::msg::Path>("planned_path", 10)[m[K;
+[1.969s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.973s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_pub_[m[K’ was not declared in this scope
+[1.973s]    16 |         [01;31m[Kpose_pub_[m[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("robot_pose", 10);
+[1.973s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.980s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:16:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+[1.980s]    16 |         pose_pub_ = this->create_publisher<[01;31m[Kgeometry_msgs[m[K::msg::PoseStamped>("robot_pose", 10);
+[1.980s]       |                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[1.980s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:16:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.980s]    16 |         pose_pub_ = this->[01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped>[m[K("robot_pose", 10);
+[1.980s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.980s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:16:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KpathPub::create_publisher<<expression error> >(const char [11], int)[m[K’
+[1.980s]    16 |         pose_pub_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>("robot_pose", 10)[m[K;
+[1.980s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.980s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.980s]                  from [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:1[m[K:
+[1.980s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.980s]   195 |   [01;36m[Kcreate_publisher[m[K(
+[1.981s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.981s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.981s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:16:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.981s]    16 |         pose_pub_ = [01;31m[Kthis->create_publisher<geometry_msgs::msg::PoseStamped>("robot_pose", 10)[m[K;
+[1.981s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.999s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:[m[K In member function ‘[01m[Kvoid pathPub::publish_message()[m[K’:
+[1.999s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:28:45:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateOccupancyGrid[m[K’ was not declared in this scope; did you mean ‘[01m[KoccupancyGrid[m[K’?
+[1.999s]    28 |         vector<vector<int>> occupancyGrid = [01;31m[KcreateOccupancyGrid[m[K(50, 5);
+[1.999s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.999s]       |                                             [32m[KoccupancyGrid[m[K
+[2.004s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:30:20:[m[K [01;31m[Kerror: [m[K‘[01m[KoccupancyGr[m[K’ was not declared in this scope; did you mean ‘[01m[KoccupancyGrid[m[K’?
+[2.004s]    30 |         int rows = [01;31m[KoccupancyGr[m[K
+[2.004s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[2.004s]       |                    [32m[KoccupancyGrid[m[K
+[2.493s] gmake[2]: *** [CMakeFiles/path_visualizer.dir/build.make:76: CMakeFiles/path_visualizer.dir/src/simu.cpp.o] Error 1
+[2.493s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_visualizer.dir/all] Error 2
+[2.494s] gmake: *** [Makefile:146: all] Error 2

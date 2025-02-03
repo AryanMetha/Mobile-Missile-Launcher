@@ -1,0 +1,17 @@
+Global Options:
+  Fixed Frame: "map"
+
+Displays:
+  - Name: Grid
+    Type: rviz_default_plugins/Grid
+    Plane Cell Count: 50
+
+  - Name: Path
+    Type: rviz_default_plugins/Path
+    Topic: "/planned_path"
+    Color: [0, 1, 0, 1] # Green
+
+  - Name: Robot Position
+    Type: rviz_default_plugins/PoseStamped
+    Topic: "/robot_pose"
+    Color: [1, 0, 0, 1] # Red

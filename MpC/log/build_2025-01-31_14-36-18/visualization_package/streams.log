@@ -1,0 +1,18 @@
+[0.013s] Invoking command in '/home/shivam/code-masala/ros/missile/src/build/visualization_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/src/build/visualization_package -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target path_visualizer[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/path_visualizer.dir/src/simu.cpp.o[0m
+[2.622s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:[m[K In constructor ‘[01m[KPathVisualizer::PathVisualizer()[m[K’:
+[2.622s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:21:40:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishPath[m[K’ is not a member of ‘[01m[KPathVisualizer[m[K’
+[2.622s]    21 |             std::bind(&PathVisualizer::[01;31m[KpublishPath[m[K, this));
+[2.622s]       |                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.622s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:30:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPathVisualizer::generatePath(float&, float&, float&, float&, float&)[m[K’
+[2.622s]    30 |         path_points_ = [01;31m[KgeneratePath(start_x, start_y, target_x, target_y, target_z)[m[K;
+[2.622s]       |                        [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.622s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:37:32:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<std::pair<float, float> > PathVisualizer::generatePath(float, float, float, float)[m[K’
+[2.622s]    37 |     vector<pair<float, float>> [01;36m[KgeneratePath[m[K(float startX, float startY, float targetX, float targetY) {
+[2.622s]       |                                [01;36m[K^~~~~~~~~~~~[m[K
+[2.623s] [01m[K/home/shivam/code-masala/ros/missile/src/visualization_package/src/simu.cpp:37:32:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[3.521s] gmake[2]: *** [CMakeFiles/path_visualizer.dir/build.make:76: CMakeFiles/path_visualizer.dir/src/simu.cpp.o] Error 1
+[3.522s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_visualizer.dir/all] Error 2
+[3.522s] gmake: *** [Makefile:146: all] Error 2
+[3.524s] Invoked command in '/home/shivam/code-masala/ros/missile/src/build/visualization_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/src/build/visualization_package -- -j16 -l16
