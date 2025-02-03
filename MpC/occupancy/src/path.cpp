@@ -8,7 +8,7 @@
 
 using namespace std;
 
-float conversionUnit = 1, targetX=0, targetY=0, targetZ = 0.3, currentX = 2, currentY = 3;
+float conversionUnit = 1, targetX=0, targetY=0, targetZ = 0.3, currentX = 1, currentY = 49;
 vector<pair<float, float>> midpoint;
 vector<vector<int>> grid;
 
