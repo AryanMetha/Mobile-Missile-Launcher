@@ -2,7 +2,7 @@
 
 
 
-Generates an occupancy Matrix 
+Generates an Arbritary Occupancy Matrix 
 Calculates target and its points
 Generates a straight line path to reach at a certain distance before it.
 ![image](https://github.com/user-attachments/assets/fb11d7fc-932d-4b48-b570-4bedd5ed120a)
