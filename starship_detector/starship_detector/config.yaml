@@ -1,0 +1,23 @@
+path: /home/aryan/umic_ws/src/starship_detector_yolov8/data
+train: 
+val: 
+
+names:
+  0: starship
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
