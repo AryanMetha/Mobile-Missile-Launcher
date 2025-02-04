@@ -4,7 +4,7 @@ model = YOLO("yolov8n.pt")
 
 train_results = model.train(
     data="config.yaml",  
-    epochs=100 ,
+    epochs=3 ,
     device="cpu",
     optimizer="Adam",
     conf= 0.3,
