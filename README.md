@@ -1,4 +1,5 @@
 <h3 align="center">For Motion Planning</h3>
+[📜 View Changelog](CHANGELOG.md)
 
 
 
