@@ -1,5 +1,4 @@
 <h3 align="center">For Motion Planning</h3>
-[📜 View Changelog](CHANGELOG.md)
 <h2>PIDv4</h2>
 PIDv1 - basic code with error wrt angle subtended to the next waypoint
 PIDv2 - fixed many logical errors and implement rviz and matplotlib visualisation
@@ -12,10 +11,10 @@ PIDv4 (LATEST) - pid paramaters now support auto-tuning with respect to any path
 <br/>
 <h4>Image showing the path followed with the tuned parameters for a sinosuidal curve</h4>
 ![image](https://github.com/user-attachments/assets/a6b80ed3-f293-4f32-b2f0-0466cbb2f9ef)
-
-
-
-<h2>Initial Days</h2>
+<br/>
+Also started changelog tracking in this repo
+<br/>
+<h2>Initial works</h2>
 Generates an Arbritary Occupancy Matrix 
 Calculates target and its points
 Generates a straight line path to reach at a certain distance before it.
