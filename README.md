@@ -1,9 +1,13 @@
 <h3 align="center">For Motion Planning</h3>
 <h2>PIDv4</h2>
-PIDv1 - basic code with error wrt angle subtended to the next waypoint
-PIDv2 - fixed many logical errors and implement rviz and matplotlib visualisation
-PIDv3 - entire revamp of the code, error is now the cross track error.
-PIDv4 (LATEST) - pid paramaters now support auto-tuning with respect to any path.
+PIDv1 - basic code with error wrt angle subtended to the next waypoint <br/>
+
+PIDv2 - fixed many logical errors and implement rviz and matplotlib visualisation<br/>
+
+PIDv3 - entire revamp of the code, error is now the cross track error.<br/>
+
+PIDv4 (LATEST) - pid paramaters now support auto-tuning with respect to any path.<br/>
+
 <br/>
 <h4>Image showing the auto-tuning process</h4>
 
