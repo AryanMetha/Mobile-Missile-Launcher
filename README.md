@@ -8,6 +8,7 @@ PIDv5 & v6 (LATEST) - pid enhances(not directly runs) the motion of the car. fix
 
 <br/>
 <h4>PIDv6 (LATEST) visualised</h4>
+
 ![image](https://github.com/user-attachments/assets/915a8429-336a-4b62-9216-0037165c3326)
 <br/>
 
@@ -32,12 +33,9 @@ PIDv5 & v6 (LATEST) - pid enhances(not directly runs) the motion of the car. fix
 <h4>Gazebo simulation for the car. The basic differential drive model is ready. testing is yet to be done</h4>
 <br/>
 
-
-
 <br/>
 Also started changelog tracking in this repo
 <br/>
-
 
 
 <h2>Initial works</h2>
@@ -45,6 +43,7 @@ Generates an Arbritary Occupancy Matrix
 Calculates target and its points
 Generates a straight line path to reach at a certain distance before it.
 <br/>
+
 ![image](https://github.com/user-attachments/assets/fb11d7fc-932d-4b48-b570-4bedd5ed120a)
 <br/>
 Plots a straight line path as shown. 
