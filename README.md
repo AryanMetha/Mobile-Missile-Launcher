@@ -27,7 +27,10 @@ PIDv5 & v6 (LATEST) - pid enhances(not directly runs) the motion of the car. fix
 ![image](https://github.com/user-attachments/assets/a6b80ed3-f293-4f32-b2f0-0466cbb2f9ef)
 
 <br/>
-
+![image](https://github.com/user-attachments/assets/0c5d7435-6a3d-43f3-a70c-1a3cbf9a4506)
+<br/>
+<h4>Gazebo simulation for the car. The basic differential drive model is ready. testing is yet to be done</h4>
+<br/>
 
 
 
