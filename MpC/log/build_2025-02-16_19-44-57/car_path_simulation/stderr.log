@@ -1,0 +1,9 @@
+[01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:112:20:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstd::vector<Point> readCSV(const string&)[m[K’
+  112 | std::vector<Point> [01;31m[KreadCSV[m[K(const std::string& filename) {
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:14:20:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<Point> readCSV(const string&)[m[K’ previously defined here
+   14 | std::vector<Point> [01;36m[KreadCSV[m[K(const std::string& filename) {
+      |                    [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/path_publisher.dir/build.make:76: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

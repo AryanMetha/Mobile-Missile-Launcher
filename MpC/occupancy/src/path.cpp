@@ -87,7 +87,7 @@ vector<pair<float, float>> generatePath(float startX, float startY, float target
     float stopY = targetY - endLength*sin(thetha);
     float dx = stopX - startX;
     float dy = stopY - startY;
-    int numOfPointsInLine = 10;
+    int numOfPointsInLine = 50;
     for (int i = 0; i <= numOfPointsInLine; i++) {
         float px = startX + i*dx/numOfPointsInLine;
         float py = startY + i*dy/numOfPointsInLine;

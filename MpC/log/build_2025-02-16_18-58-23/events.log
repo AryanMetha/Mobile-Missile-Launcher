@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (-) JobUnselected: {'identifier': 'car_path_simulation'}
+[0.000311] (-) JobUnselected: {'identifier': 'occupancy'}
+[0.000332] (-) JobUnselected: {'identifier': 'visualization_package'}
+[0.000361] (-) EventReactorShutdown: {}

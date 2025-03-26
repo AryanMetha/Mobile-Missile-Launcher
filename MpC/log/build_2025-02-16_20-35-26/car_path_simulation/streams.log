@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation -- -j16 -l16
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target path_publisher[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m
+[2.864s] [100%] [32m[1mLinking CXX executable path_publisher[0m
+[3.006s] [100%] Built target path_publisher
+[3.015s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation -- -j16 -l16
+[3.016s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --install /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation
+[3.023s] -- Install configuration: ""
+[3.023s] -- Installing: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/lib/car_path_simulation/path_publisher
+[3.024s] -- Set runtime path of "/home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/lib/car_path_simulation/path_publisher" to ""
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/launch
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/launch/path_publisher.launch.py
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/rviz
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/rviz/path_display.rviz
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv/curve_coordinates.csv
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv/trajectory.csv
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/package_run_dependencies/car_path_simulation
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/parent_prefix_path/car_path_simulation
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/ament_prefix_path.sh
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/ament_prefix_path.dsv
+[3.024s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/path.sh
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/path.dsv
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.bash
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.sh
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.zsh
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.dsv
+[3.025s] -- Installing: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/package.dsv
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/packages/car_path_simulation
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/cmake/car_path_simulationConfig.cmake
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/cmake/car_path_simulationConfig-version.cmake
+[3.025s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/package.xml
+[3.026s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake --install /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation

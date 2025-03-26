@@ -1,0 +1,22 @@
+[0.011s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation -- -j16 -l16
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target path_publisher[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m
+[1.536s] [01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:33:9:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 3 of ‘[01m[Kvisualization_msgs::msg::Marker createPathMarker(const std::vector<Point>&, const string&, int, float, float, float)[m[K’
+[1.536s]    33 |     [01;31m[Kint id[m[K,
+[1.536s]       |     [01;31m[K~~~~^~[m[K
+[1.536s] [01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:32:24:[m[K [01;36m[Knote: [m[K...following parameter 2 which has a default argument
+[1.536s]    32 |     [01;36m[Kconst std::string& frame_id = "map"[m[K,
+[1.536s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.536s] [01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:34:11:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kvisualization_msgs::msg::Marker createPathMarker(const std::vector<Point>&, const string&, int, float, float, float)[m[K’
+[1.536s]    34 |     [01;31m[Kfloat r[m[K, float g, float b)
+[1.536s]       |     [01;31m[K~~~~~~^[m[K
+[1.536s] [01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:34:20:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 5 of ‘[01m[Kvisualization_msgs::msg::Marker createPathMarker(const std::vector<Point>&, const string&, int, float, float, float)[m[K’
+[1.536s]    34 |     float r, [01;31m[Kfloat g[m[K, float b)
+[1.536s]       |              [01;31m[K~~~~~~^[m[K
+[1.536s] [01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:34:29:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 6 of ‘[01m[Kvisualization_msgs::msg::Marker createPathMarker(const std::vector<Point>&, const string&, int, float, float, float)[m[K’
+[1.536s]    34 |     float r, float g, [01;31m[Kfloat b[m[K)
+[1.536s]       |                       [01;31m[K~~~~~~^[m[K
+[2.088s] gmake[2]: *** [CMakeFiles/path_publisher.dir/build.make:76: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1
+[2.088s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_publisher.dir/all] Error 2
+[2.089s] gmake: *** [Makefile:146: all] Error 2
+[2.090s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/car_path_simulation -- -j16 -l16

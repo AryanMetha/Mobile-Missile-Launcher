@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target path_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m
+[01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:[m[K In constructor ‘[01m[KPathPublisher::PathPublisher()[m[K’:
+[01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:112:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kament_index_cpp[m[K’ has not been declared
+  112 |         std::string target_csv = [01;31m[Kament_index_cpp[m[K::get_package_share_directory("car_path_simulation") + "/share/csv/curve_coordinates.csv";
+      |                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/shivam/code-masala/ros/missile/MpC/car_path_simulation/src/path_publisher.cpp:113:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kament_index_cpp[m[K’ has not been declared
+  113 |         std::string simulated_csv = [01;31m[Kament_index_cpp[m[K::get_package_share_directory("car_path_simulation") + "/share/csv/trajectory.csv";
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/path_publisher.dir/build.make:76: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/path_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

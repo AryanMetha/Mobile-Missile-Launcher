@@ -1,0 +1,28 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+
+Displays:
+  - Class: rviz_default_plugins/Marker
+    Name: Target Path
+    Topic: /target_path
+    Enabled: true
+    Alpha: 1.0
+    Color: 0.0, 1.0, 0.0  # Green
+    Scale: 0.1
+  - Class: rviz_default_plugins/Marker
+    Name: Simulated Path
+    Topic: /simulated_path
+    Enabled: true
+    Alpha: 1.0
+    Color: 1.0, 0.0, 0.0  # Red
+    Scale: 0.1
+
+Global Options:
+  Fixed Frame: map
+
+View Manager:
+  Current View:
+    Class: rviz_default_plugins/Orbit

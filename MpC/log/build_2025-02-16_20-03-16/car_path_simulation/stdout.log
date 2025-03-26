@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target path_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable path_publisher[0m
+[100%] Built target path_publisher
+-- Install configuration: ""
+-- Installing: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/lib/car_path_simulation/path_publisher
+-- Set runtime path of "/home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/lib/car_path_simulation/path_publisher" to ""
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/launch
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/launch/path_publisher.launch.py
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/path_display.rviz
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv/curve_coordinates.csv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/share/csv/trajectory.csv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/package_run_dependencies/car_path_simulation
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/parent_prefix_path/car_path_simulation
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/path.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/environment/path.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.bash
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.sh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.zsh
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/local_setup.dsv
+-- Installing: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/package.dsv
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/ament_index/resource_index/packages/car_path_simulation
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/cmake/car_path_simulationConfig.cmake
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/cmake/car_path_simulationConfig-version.cmake
+-- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/car_path_simulation/share/car_path_simulation/package.xml

@@ -1,0 +1,24 @@
+[0.008s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/occupancy -- -j16 -l16
+[0.048s] [ 50%] Built target listener
+[0.048s] [100%] Built target talker
+[0.063s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/occupancy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shivam/code-masala/ros/missile/MpC/build/occupancy -- -j16 -l16
+[0.064s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shivam/code-masala/ros/missile/MpC/build/occupancy
+[0.069s] -- Install configuration: ""
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/lib/occupancy/talker
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/lib/occupancy/listener
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/ament_index/resource_index/package_run_dependencies/occupancy
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/ament_index/resource_index/parent_prefix_path/occupancy
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/environment/path.sh
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/environment/path.dsv
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/local_setup.bash
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/local_setup.sh
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/local_setup.zsh
+[0.070s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/local_setup.dsv
+[0.071s] -- Installing: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/package.dsv
+[0.071s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/ament_index/resource_index/packages/occupancy
+[0.071s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/cmake/occupancyConfig.cmake
+[0.071s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/cmake/occupancyConfig-version.cmake
+[0.071s] -- Up-to-date: /home/shivam/code-masala/ros/missile/MpC/install/occupancy/share/occupancy/package.xml
+[0.081s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/occupancy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/shivam/code-masala/ros/missile/MpC/build/occupancy

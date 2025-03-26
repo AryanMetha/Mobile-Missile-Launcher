@@ -1,0 +1,74 @@
+[0.026s] Invoking command in '/home/shivam/code-masala/ros/missile/MpC/build/mycarsim': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/shivam/code-masala/ros/missile/MpC/mycarsim -DCMAKE_INSTALL_PREFIX=/home/shivam/code-masala/ros/missile/MpC/install/mycarsim
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.336s] -- The CXX compiler identification is GNU 11.4.0
+[0.359s] -- Detecting C compiler ABI info
+[0.523s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.546s] -- Detecting C compile features - done
+[0.555s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.781s] -- Detecting CXX compile features
+[0.782s] -- Detecting CXX compile features - done
+[0.787s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /home/shivam/code-masala/ros/missile/MpC/occupancy/src/myenv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.351s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.464s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.479s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.506s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.702s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.707s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.007s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.150s] -- Looking for pthread.h
+[2.331s] -- Looking for pthread.h - found
+[2.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.524s] -- Found Threads: TRUE  
+[2.659s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.702s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.719s] -- Searching for dependencies of ignition-transport11
+[2.780s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.810s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.823s] -- Checking for module 'libzmq >= 4'
+[2.855s] --   Found libzmq , version 4.3.4
+[2.947s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.961s] -- Checking for module 'uuid'
+[2.993s] --   Found uuid, version 2.37.2
+[3.072s] -- Found UUID: TRUE  
+[3.077s] -- Looking for ignition-utils1 -- found version 1.5.1
+[3.078s] -- Searching for dependencies of ignition-utils1
+[3.079s] -- Searching for <ignition-utils1> component [cli]
+[3.083s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[3.085s] -- Searching for dependencies of ignition-utils1-cli
+[3.090s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[3.091s] -- Searching for dependencies of ignition-msgs8
+[3.134s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.142s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.144s] -- Searching for dependencies of ignition-math6
+[3.160s] -- Checking for module 'tinyxml2'
+[3.191s] --   Found tinyxml2, version 9.0.0
+[3.305s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[3.305s]   By not providing "Findignition-msgs7.cmake" in CMAKE_MODULE_PATH this
+[3.306s]   project has asked CMake to find a package configuration file provided by
+[3.306s]   "ignition-msgs7", but CMake did not find one.
+[3.306s] 
+[3.306s]   Could not find a package configuration file provided by "ignition-msgs7"
+[3.306s]   with any of the following names:
+[3.307s] 
+[3.307s]     ignition-msgs7Config.cmake
+[3.307s]     ignition-msgs7-config.cmake
+[3.307s] 
+[3.307s]   Add the installation prefix of "ignition-msgs7" to CMAKE_PREFIX_PATH or set
+[3.307s]   "ignition-msgs7_DIR" to a directory containing one of the above files.  If
+[3.307s]   "ignition-msgs7" provides a separate development package or SDK, be sure it
+[3.307s]   has been installed.
+[3.307s] 
+[3.308s] [0m
+[3.308s] -- Configuring incomplete, errors occurred!
+[3.308s] See also "/home/shivam/code-masala/ros/missile/MpC/build/mycarsim/CMakeFiles/CMakeOutput.log".
+[3.328s] Invoked command in '/home/shivam/code-masala/ros/missile/MpC/build/mycarsim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(myenv) /usr/bin/cmake /home/shivam/code-masala/ros/missile/MpC/mycarsim -DCMAKE_INSTALL_PREFIX=/home/shivam/code-masala/ros/missile/MpC/install/mycarsim

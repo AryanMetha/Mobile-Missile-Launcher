@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findignition-msgs7.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "ignition-msgs7", but CMake did not find one.
+
+  Could not find a package configuration file provided by "ignition-msgs7"
+  with any of the following names:
+
+    ignition-msgs7Config.cmake
+    ignition-msgs7-config.cmake
+
+  Add the installation prefix of "ignition-msgs7" to CMAKE_PREFIX_PATH or set
+  "ignition-msgs7_DIR" to a directory containing one of the above files.  If
+  "ignition-msgs7" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
